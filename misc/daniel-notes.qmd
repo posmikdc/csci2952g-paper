@@ -1,0 +1,27 @@
+# DLGen Paper Meeting
+
+## Questions
+
+- **Data**: Any advice/pointers?
+- **Choosing Scope**: Don't want to overdo it; we only have limited time 
+- **Attention weights from graphs**: 
+
+There are papers that link GNNs and transformer architecture (see, e.g., Dwivedi & Bresson (2021)). 
+
+*Idea 1: Manifold Embedding*
+
+The core idea is to use manifolds, low-dimensional representations of potentially high-dimensional noisy graphs, as low-dimensional representations. A first strategy would be the algorithm in Proposition 4.1 in [Giovanni et al. (2022)](https://arxiv.org/pdf/2202.01185). Essentially, this would be the idea: 
+
+[`1`] Embed graph in network (e.g., numerical projection approaches) -> [`2`] For each node $i \in V$, obtain $w_i = 1/\kappa$ where $\kappa$ is a measure of curvature -> [`3`] Use $w_i$ for within attention mechanism for prediction task 
+
+The idea is that the geometry of the graph is in direct relation to how much we care about it. Specifically, a graph's "density" (Think: Node centrality) is inversely related to its curvature in the embedding manifold, thus highly connected nodes may lie in relatively "flat" space. "Outlier nodes" may lie in highly curved space. If we penalize by curvature, we have our desired weighting scheme. 
+
+As opposed to convolutions, this attention mechanism is not only statistically principled but also respects the "network grammar". 
+
+Literature that is closely related to this is "fused" GNN + manifold estimation (notably, [Deng et al. (2023)](https://arxiv.org/abs/2304.01081)). This essentially uses the manifold embeddings as a dictionary for prediction, specifically the regularization component within prediction. 
+
+*Idea 2: Spectral and Graph Methods*
+
+This could be more feasible and would not require any manifold embeddings. The idea would be to use spectral properties of the graph's representation matrix (eigenvectors, Laplacian, etc.) 
+
+## Meeting Notes
