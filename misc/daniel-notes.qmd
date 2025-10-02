@@ -25,3 +25,15 @@ Literature that is closely related to this is "fused" GNN + manifold estimation 
 This could be more feasible and would not require any manifold embeddings. The idea would be to use spectral properties of the graph's representation matrix (eigenvectors, Laplacian, etc.) 
 
 ## Meeting Notes
+
+- Novelty can come from combination of dataset/ problem and new method; last minute plan: comprehensive benchmarking; explainability  
+- Protein models dont capture protein-protein interaction info; each protein 
+- Use manifold curvature as feature or additional encoding; similar to positional encoding in text; have interaction info fed into model; 
+- Use graph attention Neural network; 
+- Use manifold curvature as weights (weighted graph)
+- Maybe look into gene-gene interaction; Intuition: positional encoding on top of words gives model sense of grammer (further, closer); in gene: can we do better than positional encoding; 
+- TAD vs gene-gene: gene-gene is borader; one gene expresses TF which then activates another gene; interaction is defined very loosely; TAD could be one pathway; pathways and regulation schemes; goes beyond physical contact; 
+- Cite the functional data analysis literature on including manifold curvature as covariate 
+- String DB (database), for instance, for data 
+- Framing this problem in protein-protein space may be easier 
+- 1-2 single cell transformer papers; 1-2 protein transformer paper
