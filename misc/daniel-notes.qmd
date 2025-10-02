@@ -37,3 +37,7 @@ This could be more feasible and would not require any manifold embeddings. The i
 - String DB (database), for instance, for data 
 - Framing this problem in protein-protein space may be easier 
 - 1-2 single cell transformer papers; 1-2 protein transformer paper
+
+*Implementation*
+
+- Pass manifold information directly into fully connected layer with post-processed graph data
