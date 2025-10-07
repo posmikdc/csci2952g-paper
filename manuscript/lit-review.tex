@@ -1,0 +1,60 @@
+\documentclass[twoside,11pt]{article}
+
+\usepackage{style}
+
+\ShortHeadings{
+%% short title here
+Literature Review (CSCI2952G)
+}{
+% last name
+Narayanan, Posmik, Tran}
+\firstpageno{1}
+
+\begin{document}
+
+\title{	Literature Review (CSCI2952G) \\
+\vspace{.1in}
+An Overview of Graph Neural Networks, Protein-Protein Interaction, and Manifold Graph Embedding 	
+}
+
+\author{Charu Narayanan, Daniel Posmik, Minh Le Tran}
+
+\maketitle
+\date{4 }
+
+\section{Introduction} \label{sec:intro}
+
+Blah Blah 
+
+\section{Using GNNs for Protein-Protein Interaction} \label{sec:application}
+
+\citet{jha_etal_2022}
+
+\section{GNN Architectures} \label{sec:architecture}
+
+\section{Manifold Graph Embedding} \label{sec:manifold}
+
+Manifold estimation is motivated by the manifold hypothesis \citep{fefferman_etal_2013} which intuitively states that our realized sample (i.e. our data) stems from a lower-dimensional data generating process that is subsequently corrupted by high-dimensional noise (\citet{fefferman_etal_2013}, \citet{meng_eloyan_2021}). We shall refer to the process of reconstructing and estimating this low-dimensional manifold as manifold estimation or manifold embedding (two terms we will use interchangeably). Intuitively, manifold estimation is a generalization of non-linear dimensionality reduction in which we may explicitly preserve geometric properties of our data.  
+
+For high-dimensional noisy graph-structured data, manifold estimation is particularly well-suited to well-known links between discrete graphs and the curvature of non-Euclidian embedding spaces \citep{bronstein_etal_2017}. While no choice of embedding space is perfect due to distortion trade-offs, it can be shown that certain "characteristic graphs" correspond to principle curvatures, e.g., tree-like graphs are optimally embedded in hyperbolic spaces while chain graphs are best represented in spherical space (\citet{weber_2018}, \citet{weber_2020}). 
+
+Manifold estimation is a non-trivial learning problem that requires the careful consideration of trade-offs (e.g., distortion and relational context) and parameter estimation. The parameters that need to be estimated are the class of manifold $\mathcal{M}$, choosing mixed effects structure (e.g., clique-level fixed effects), the intrinsic dimension of the manifold ($p$), and the projection map from the data ($\mathcal{D}$) to the manifold, i.e. 
+
+\[\pi: \mathcal{D} \rightarrow \mathcal{M}_\kappa^p \quad \text{where} \quad \mathcal{D} = G = \{V,E\}\]
+
+Here, $\kappa$ is a measure of curvature and our data $\mathcal{D}$ can be expressed as a graph $G = \{V,E\}$. \citet{lubold_etal_2022} present a data-driven, replicable alternative to ex-ante choosing manifold class ($\mathcal{M}$), dimension ($p$), and curvature ($\kappa$). The technique of \citet{lubold_etal_2022} demonstrate how the connection likelihood has an inverse relationship with the distance of the projected points on the latent manifold. \citet{meng_eloyan_2021} present a regularized principled manifold estimation technique. 
+
+Under correct specification of $\pi(\cdot)$ and the manifold parameters, the key is that for any node $X_{ij} \in G = \{V_X, E_X\}$, its projection on the manifold $\pi_\mathcal{M}^p(X_{i,j})$ of class $\mathcal{M}$ and intrinsic dimension $\mathcal{M}$ gives us valuable information about node importance (e.g., \citet{yamada_2025} use Forman Curvature, \citet{xu_2020} offers a broader discussion). By the above embedding results, highly connected nodes will lie in "flatter" space while more isolated nodes (e.g., the terminal nodes of a tree-graph) will lie in highly curved space. Thus, the inverse of the absolute gradient at the projection $\pi_\mathcal{M}^p(X_{i,j})$, say $\hat{w}_{ij} := |\nabla~\pi_\mathcal{M}^p(X_{i,j})|^{-1}$, will give us insight into how important this node is in the graph. Our goal is to use these inverse weights $w_{ij}$ as an additional feature in protein-protein interaction prediction. These weights $w_{ij}$ lend themselves particularly well to high-dimensional, unsupervised environments since they respect geometric (e.g., curvature, embedding space), topological, and relational contexts of the data. Alternative embedding techniques, e.g., well-established spectral matrix embedding methods, may not readily extend to heterogeneous geometry and high-dimensional settings (for relevant discussions, see \citet{baptista_etal_2023}, \citet{rubin-delanchy_2021}). 
+
+While we have described manifold estimation in theory, we have yet to cover practical considerations. Due to time constraints, we want flexible, out-of-the-box embedding algorithms that can handle high-dimensional, heterogeneous graphs.  \citet{digiovanni_etal_2022} propose "soft manifolds" as a curvature-aware, flexible solution to the heterogeneity problem. In \citet{digiovanni_etal_2022} Proposition 4.1, we are given a numerical embedding procedure based on Riemannian stochastic gradient descent (R-SGD) \citep{bonnabel_2013}. \citet{marinoni_etal_2023} offer a similar implementation. \citet{jyothish_jannesari_2025} offer insight into how manifold embeddings work within a graph transformer framework and provide algorithmic details. 
+
+\newpage
+
+\appendix
+\section*{Appendix A.} \label{sec:app_a}
+Blah Blah 
+
+\newpage 
+\bibliography{../literature/references}
+
+\end{document}
