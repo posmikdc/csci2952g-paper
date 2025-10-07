@@ -34,6 +34,13 @@ Blah Blah
 
 \section{Manifold Graph Embedding} \label{sec:manifold}
 
+Manifold estimation is motivated by the manifold hypothesis, which posits that observed data originates from a lower-dimensional data generating process corrupted by high-dimensional noise (\citet{fefferman_etal_2013}, \citet{meng_eloyan_2021}). This technique generalizes non-linear dimensionality reduction while explicitly preserving geometric properties of the data. For graph-structured data, manifold estimation leverages well-known connections between discrete graphs and non-Euclidean embedding space curvature, where characteristic graphs correspond to principle curvatures—tree-like graphs embed optimally in hyperbolic spaces while chain graphs are best represented in spherical space (\citet{bronstein_etal_2017}, \citet{weber_2018}, \citet{weber_2020}). The learning problem requires estimating the manifold class $\mathcal{M}$, intrinsic dimension $p$, curvature $\kappa$, and projection map $\pi: \mathcal{D} \rightarrow \mathcal{M}_\kappa^p$ where $\mathcal{D} = G = \{V,E\}$, with \citet{lubold_etal_2022} and \citet{meng_eloyan_2021} providing data-driven estimation techniques. Under correct specification, a node's projection $\pi_\mathcal{M}^p(X_{i,j})$ yields information about node importance (\citet{yamada_2025}, \citet{xu_2020}), where highly connected nodes lie in flatter space and isolated nodes lie in highly curved space. The inverse gradient $\hat{w}_{ij} := |\nabla~\pi_\mathcal{M}^p(X_{i,j})|^{-1}$ provides weights that capture geometric, topological, and relational context, making them particularly valuable for high-dimensional unsupervised settings where spectral methods may fail (\citet{baptista_etal_2023}, \citet{rubin-delanchy_2021}). For practical implementation, \citet{digiovanni_etal_2022} propose "soft manifolds" using Riemannian stochastic gradient descent (\citet{bonnabel_2013}), with similar approaches offered by \citet{marinoni_etal_2023} and \citet{jyothish_jannesari_2025}. Refer to Appendix~\ref{sec:app_a} for a more detailed exposition. 
+
+\newpage
+
+\appendix
+\section*{Appendix A.} \label{sec:app_a}
+
 Manifold estimation is motivated by the manifold hypothesis \citep{fefferman_etal_2013} which intuitively states that our realized sample (i.e. our data) stems from a lower-dimensional data generating process that is subsequently corrupted by high-dimensional noise (\citet{fefferman_etal_2013}, \citet{meng_eloyan_2021}). We shall refer to the process of reconstructing and estimating this low-dimensional manifold as manifold estimation or manifold embedding (two terms we will use interchangeably). Intuitively, manifold estimation is a generalization of non-linear dimensionality reduction in which we may explicitly preserve geometric properties of our data.  
 
 For high-dimensional noisy graph-structured data, manifold estimation is particularly well-suited to well-known links between discrete graphs and the curvature of non-Euclidian embedding spaces \citep{bronstein_etal_2017}. While no choice of embedding space is perfect due to distortion trade-offs, it can be shown that certain "characteristic graphs" correspond to principle curvatures, e.g., tree-like graphs are optimally embedded in hyperbolic spaces while chain graphs are best represented in spherical space (\citet{weber_2018}, \citet{weber_2020}). 
@@ -48,11 +55,6 @@ Under correct specification of $\pi(\cdot)$ and the manifold parameters, the key
 
 While we have described manifold estimation in theory, we have yet to cover practical considerations. Due to time constraints, we want flexible, out-of-the-box embedding algorithms that can handle high-dimensional, heterogeneous graphs.  \citet{digiovanni_etal_2022} propose "soft manifolds" as a curvature-aware, flexible solution to the heterogeneity problem. In \citet{digiovanni_etal_2022} Proposition 4.1, we are given a numerical embedding procedure based on Riemannian stochastic gradient descent (R-SGD) \citep{bonnabel_2013}. \citet{marinoni_etal_2023} offer a similar implementation. \citet{jyothish_jannesari_2025} offer insight into how manifold embeddings work within a graph transformer framework and provide algorithmic details. 
 
-\newpage
-
-\appendix
-\section*{Appendix A.} \label{sec:app_a}
-Blah Blah 
 
 \newpage 
 \bibliography{../literature/references}
