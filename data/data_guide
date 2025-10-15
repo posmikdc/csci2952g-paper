@@ -1,3 +1,8 @@
+***Dataset types***
+	Fullnet: full network of PPIs
+	Phys: network showing edges between the proteins with evidence of binding or forming a physical complex
+
+***Scoring channels***
 Direct interactions
   Known interactions
 	  experiments 
