@@ -1,0 +1,339 @@
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  7 OCT 2025 15:54
+ restricted system commands enabled.
+ file:line:error style messages enabled.
+**lit-review.tex
+(./lit-review.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "/Users/posmikdc/Library/texlive/2025/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-resolved path "/usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/Users/posmikdc/Library/texlive/2025/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /Users/posmikdc/Library/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count194
+\c@section=\count195
+\c@subsection=\count196
+\c@subsubsection=\count197
+\c@paragraph=\count198
+\c@subparagraph=\count199
+\c@figure=\count266
+\c@table=\count267
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen140
+) (./style.sty
+Document Style `Observational Studies' -- November 2013.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2024/01/14 v1.7b (e)psfig emulation (SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+\epsfxsize=\dimen143
+\epsfysize=\dimen144
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count268
+)
+\aftertitskip=\skip53
+\beforetitskip=\skip54
+\interauthorskip=\skip55
+\aftermaketitskip=\skip56
+\c@example=\count269
+\c@theorem=\count270
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count271
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box52
+) (./lit-review.aux)
+\openout1 = lit-review.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+ (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count272
+\scratchdimen=\dimen145
+\scratchbox=\box53
+\nofMPsegments=\count273
+\nofMParguments=\count274
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count275
+\MPscratchDim=\dimen146
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
+\everyMPtoPDFconversion=\toks20
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package natbib Warning: Citation `jha_etal_2022' on page 1 undefined on input line 31.
+
+
+Package natbib Warning: Citation `fefferman_etal_2013' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `meng_eloyan_2021' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `bronstein_etal_2017' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `weber_2018' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `weber_2020' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `lubold_etal_2022' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `meng_eloyan_2021' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `yamada_2025' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `xu_2020' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `baptista_etal_2023' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `rubin-delanchy_2021' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `digiovanni_etal_2022' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `bonnabel_2013' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `marinoni_etal_2023' on page 1 undefined on input line 37.
+
+
+Package natbib Warning: Citation `jyothish_jannesari_2025' on page 1 undefined on input line 37.
+
+
+LaTeX Warning: Reference `sec:app_a' on page 1 undefined on input line 37.
+
+
+Overfull \hbox (15.87752pt too wide) in paragraph at lines 37--38
+\TU/lmr/m/n/10.95 data orig-i-nates from a lower-dimensional data gen-er-at-ing pro-cess cor-rupted by high-dimensional
+ []
+
+
+
+[1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+
+Package natbib Warning: Citation `fefferman_etal_2013' on page 2 undefined on input line 44.
+
+
+Package natbib Warning: Citation `fefferman_etal_2013' on page 2 undefined on input line 44.
+
+
+Package natbib Warning: Citation `meng_eloyan_2021' on page 2 undefined on input line 44.
+
+
+Package natbib Warning: Citation `bronstein_etal_2017' on page 2 undefined on input line 46.
+
+
+Package natbib Warning: Citation `weber_2018' on page 2 undefined on input line 46.
+
+
+Package natbib Warning: Citation `weber_2020' on page 2 undefined on input line 46.
+
+./lit-review.tex:50: Undefined control sequence.
+l.50 ...ightarrow \mathcal{M}_\kappa^p \quad \text
+                                                  {where} \quad \mathcal{D} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `lubold_etal_2022' on page 2 undefined on input line 52.
+
+
+Package natbib Warning: Citation `lubold_etal_2022' on page 2 undefined on input line 52.
+
+
+Package natbib Warning: Citation `meng_eloyan_2021' on page 2 undefined on input line 52.
+
+
+Package natbib Warning: Citation `yamada_2025' on page 2 undefined on input line 54.
+
+
+Package natbib Warning: Citation `xu_2020' on page 2 undefined on input line 54.
+
+
+Package natbib Warning: Citation `baptista_etal_2023' on page 2 undefined on input line 54.
+
+
+Package natbib Warning: Citation `rubin-delanchy_2021' on page 2 undefined on input line 54.
+
+
+Package natbib Warning: Citation `digiovanni_etal_2022' on page 2 undefined on input line 56.
+
+
+Package natbib Warning: Citation `digiovanni_etal_2022' on page 2 undefined on input line 56.
+
+
+Package natbib Warning: Citation `bonnabel_2013' on page 2 undefined on input line 56.
+
+
+Package natbib Warning: Citation `marinoni_etal_2023' on page 2 undefined on input line 56.
+
+
+Package natbib Warning: Citation `jyothish_jannesari_2025' on page 2 undefined on input line 56.
+
+
+
+[2]
+
+[3] (./lit-review.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+[]\TU/lmr/m/n/10.95 Ankit Jyoth-ish and Ali Jan-nesari.  Lever-ag-ing man-i-fold em-bed-dings for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+\TU/lmr/m/n/10.95 en-hanced graph trans-former rep-re-sen-ta-tions and learn-ing, 2025.  URL
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 67--70
+[]\TU/lmr/m/n/10.95 Patrick Rubin-Delanchy.  Man-i-fold struc-ture in graph em-bed-dings, 2021.  URL
+ []
+
+
+
+[4])
+
+Package natbib Warning: There were undefined citations.
+
+
+
+[5] (./lit-review.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+)
+
+Here is how much of LuaTeX's memory you used:
+ 2406 strings out of 475506
+ 100000,552014 words of node,token memory allocated
+ 450 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 56 glue_spec, 5 attribute_list, 1 write nodes
+   avail lists: 2:262,3:160,4:31,5:450,6:29,7:8448,8:21,9:179,10:20,11:772
+ 25419 multiletter control sequences out of 65536+600000
+ 47 fonts using 3258887 bytes
+ 87i,6n,88p,2044b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on lit-review.pdf (5 pages, 104376 bytes).
+
+PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
