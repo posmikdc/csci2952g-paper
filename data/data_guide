@@ -1,27 +1,3 @@
-***Dataset types***
-	Fullnet: full network of PPIs
-	Phys: network showing edges between the proteins with evidence of binding or forming a physical complex
-
-***Scoring channels***
-Direct interactions
-  Known interactions
-	  experiments 
-	  database 
-
-  Predicted interactions
-	  neighborhood
-	  fusion 
-	  co-occurence 
-
-  Others
-	  co-expression 
-	  textmining 
-
-
-Interlogs - Predicted interactions between proteins that have known homologs that interact in different species
-	  neighborhood_transferred
-	  coexpression_transferred
-	  experiments_transferred
-	  database_transferred
-	  textmining_transferred
-	  homology
+version https://git-lfs.github.com/spec/v1
+oid sha256:879f354388ce047e296a2e221f9cc06800c67982e343a95b50dfae2ad72c03f2
+size 622

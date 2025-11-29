@@ -1,8 +1,3 @@
-\begin{thebibliography}{0}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\end{thebibliography}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e5c0a84578475116bd7e34d81ab6a955fa410c276f07902a2ba9c41ed532db6
+size 275
