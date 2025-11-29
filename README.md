@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5891b3e55a9f9648864cd9f2e87784ff60d90a00bfff014a2d0d412df6719b88
-size 17
+**Experimental Results**
+
+The results are for the a variety of experimental setups with both the GAT and GCN as the intra-protein (BGNN) neural net. These setups include playing with a bunch of parameters like epochs, number of heads, embedding size etc. The results for the same can be found in the result_save folder. The folder name contains information of the setup. For example, "gat_sub_bgnn_training_e-15_h-2_256" refers to the sub-sampled training of GAT as the BGNN (intra-protein neural net) for 15 epochs with 2 heads and an embedding size of 256. 
