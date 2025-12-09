@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 
+=======
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+data/prot-structure/HUMAN_9606_idmapping.tab.gz filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 6e929d2be5e70643c3c2da0730c64b9f16e15070
