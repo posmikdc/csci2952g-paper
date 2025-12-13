@@ -1,0 +1,206 @@
+epoch: 0, now learning rate: 0.001
+epoch: 0, Training_avg: loss: 5.9057, recall: 0.2114, precision: 0.4465, F1: 0.2568, Validation_avg: loss: 5.9242, recall: 0.2361, precision: 0.5395, F1: 0.3285, Best valid_f1: 0.3285, in epoch 0
+epoch: 1, now learning rate: 0.001
+epoch: 1, Training_avg: loss: 5.7557, recall: 0.2363, precision: 0.5042, F1: 0.3169, Validation_avg: loss: 5.6730, recall: 0.2308, precision: 0.5565, F1: 0.3263, Best valid_f1: 0.3285, in epoch 0
+epoch: 2, now learning rate: 0.001
+epoch: 2, Training_avg: loss: 5.6437, recall: 0.2852, precision: 0.5495, F1: 0.3615, Validation_avg: loss: 5.4375, recall: 0.1862, precision: 0.5720, F1: 0.2810, Best valid_f1: 0.3285, in epoch 0
+epoch: 3, now learning rate: 0.001
+epoch: 3, Training_avg: loss: 5.7223, recall: 0.2751, precision: 0.5398, F1: 0.3554, Validation_avg: loss: 5.4945, recall: 0.3469, precision: 0.5602, F1: 0.4284, Best valid_f1: 0.4284, in epoch 3
+epoch: 4, now learning rate: 0.001
+epoch: 4, Training_avg: loss: 5.5024, recall: 0.3798, precision: 0.5826, F1: 0.4494, Validation_avg: loss: 5.3198, recall: 0.3116, precision: 0.6693, F1: 0.4252, Best valid_f1: 0.4284, in epoch 3
+epoch: 5, now learning rate: 0.001
+epoch: 5, Training_avg: loss: 5.5390, recall: 0.2780, precision: 0.5908, F1: 0.3604, Validation_avg: loss: 5.3415, recall: 0.2667, precision: 0.6370, F1: 0.3760, Best valid_f1: 0.4284, in epoch 3
+epoch: 6, now learning rate: 0.001
+epoch: 6, Training_avg: loss: 5.4864, recall: 0.3007, precision: 0.5973, F1: 0.3945, Validation_avg: loss: 5.3455, recall: 0.2029, precision: 0.6763, F1: 0.3121, Best valid_f1: 0.4284, in epoch 3
+epoch: 7, now learning rate: 0.001
+epoch: 7, Training_avg: loss: 5.4785, recall: 0.2770, precision: 0.6157, F1: 0.3721, Validation_avg: loss: 5.2618, recall: 0.3306, precision: 0.6360, F1: 0.4350, Best valid_f1: 0.4350, in epoch 7
+epoch: 8, now learning rate: 0.001
+epoch: 8, Training_avg: loss: 5.4215, recall: 0.2974, precision: 0.6227, F1: 0.3925, Validation_avg: loss: 5.3127, recall: 0.1929, precision: 0.7205, F1: 0.3043, Best valid_f1: 0.4350, in epoch 7
+epoch: 9, now learning rate: 0.001
+epoch: 9, Training_avg: loss: 5.4712, recall: 0.2818, precision: 0.6154, F1: 0.3682, Validation_avg: loss: 5.3668, recall: 0.2248, precision: 0.6475, F1: 0.3337, Best valid_f1: 0.4350, in epoch 7
+epoch: 10, now learning rate: 0.001
+epoch: 10, Training_avg: loss: 5.3739, recall: 0.3246, precision: 0.6273, F1: 0.4164, Validation_avg: loss: 5.3257, recall: 0.1899, precision: 0.7292, F1: 0.3013, Best valid_f1: 0.4350, in epoch 7
+epoch: 11, now learning rate: 0.001
+epoch: 11, Training_avg: loss: 5.3686, recall: 0.3419, precision: 0.6126, F1: 0.4322, Validation_avg: loss: 5.3076, recall: 0.1553, precision: 0.7119, F1: 0.2550, Best valid_f1: 0.4350, in epoch 7
+epoch: 12, now learning rate: 0.001
+epoch: 12, Training_avg: loss: 5.3795, recall: 0.3020, precision: 0.6267, F1: 0.3951, Validation_avg: loss: 5.3340, recall: 0.2787, precision: 0.6348, F1: 0.3873, Best valid_f1: 0.4350, in epoch 7
+epoch: 13, now learning rate: 0.001
+epoch: 13, Training_avg: loss: 5.3587, recall: 0.3253, precision: 0.6152, F1: 0.4157, Validation_avg: loss: 5.2724, recall: 0.2351, precision: 0.6844, F1: 0.3500, Best valid_f1: 0.4350, in epoch 7
+epoch: 14, now learning rate: 0.001
+epoch: 14, Training_avg: loss: 5.3098, recall: 0.3528, precision: 0.6165, F1: 0.4441, Validation_avg: loss: 5.2298, recall: 0.3046, precision: 0.6410, F1: 0.4130, Best valid_f1: 0.4350, in epoch 7
+epoch: 15, now learning rate: 0.001
+epoch: 15, Training_avg: loss: 5.3718, recall: 0.3380, precision: 0.6265, F1: 0.4271, Validation_avg: loss: 5.2251, recall: 0.2238, precision: 0.6996, F1: 0.3391, Best valid_f1: 0.4350, in epoch 7
+epoch: 16, now learning rate: 0.001
+epoch: 16, Training_avg: loss: 5.4652, recall: 0.3323, precision: 0.5954, F1: 0.4181, Validation_avg: loss: 5.2842, recall: 0.4124, precision: 0.6310, F1: 0.4988, Best valid_f1: 0.4988, in epoch 16
+epoch: 17, now learning rate: 0.001
+epoch: 17, Training_avg: loss: 5.3486, recall: 0.3358, precision: 0.6306, F1: 0.4240, Validation_avg: loss: 5.3642, recall: 0.1257, precision: 0.7426, F1: 0.2150, Best valid_f1: 0.4988, in epoch 16
+epoch: 18, now learning rate: 0.001
+epoch: 18, Training_avg: loss: 5.3373, recall: 0.3087, precision: 0.6355, F1: 0.3976, Validation_avg: loss: 5.2505, recall: 0.3292, precision: 0.6450, F1: 0.4359, Best valid_f1: 0.4988, in epoch 16
+epoch: 19, now learning rate: 0.001
+epoch: 19, Training_avg: loss: 5.3113, recall: 0.3420, precision: 0.6209, F1: 0.4342, Validation_avg: loss: 5.2385, recall: 0.2471, precision: 0.6873, F1: 0.3635, Best valid_f1: 0.4988, in epoch 16
+epoch: 20, now learning rate: 0.001
+epoch: 20, Training_avg: loss: 5.3073, recall: 0.3326, precision: 0.6375, F1: 0.4301, Validation_avg: loss: 5.2591, recall: 0.2793, precision: 0.6316, F1: 0.3874, Best valid_f1: 0.4988, in epoch 16
+epoch: 21, now learning rate: 0.001
+epoch: 21, Training_avg: loss: 5.2961, recall: 0.3576, precision: 0.6249, F1: 0.4461, Validation_avg: loss: 5.2052, recall: 0.2255, precision: 0.7314, F1: 0.3447, Best valid_f1: 0.4988, in epoch 16
+epoch: 22, now learning rate: 0.001
+epoch: 22, Training_avg: loss: 5.3386, recall: 0.3504, precision: 0.6245, F1: 0.4391, Validation_avg: loss: 5.2854, recall: 0.1826, precision: 0.6949, F1: 0.2892, Best valid_f1: 0.4988, in epoch 16
+epoch: 23, now learning rate: 0.001
+epoch: 23, Training_avg: loss: 5.2724, recall: 0.3362, precision: 0.6307, F1: 0.4313, Validation_avg: loss: 5.1962, recall: 0.2754, precision: 0.6726, F1: 0.3908, Best valid_f1: 0.4988, in epoch 16
+epoch: 24, now learning rate: 0.001
+epoch: 24, Training_avg: loss: 5.2732, recall: 0.3605, precision: 0.6285, F1: 0.4483, Validation_avg: loss: 5.2264, recall: 0.2507, precision: 0.6898, F1: 0.3678, Best valid_f1: 0.4988, in epoch 16
+epoch: 25, now learning rate: 0.001
+epoch: 25, Training_avg: loss: 5.3258, recall: 0.3615, precision: 0.6191, F1: 0.4471, Validation_avg: loss: 5.4247, recall: 0.1799, precision: 0.7577, F1: 0.2908, Best valid_f1: 0.4988, in epoch 16
+epoch: 26, now learning rate: 0.001
+epoch: 26, Training_avg: loss: 5.3131, recall: 0.3410, precision: 0.6261, F1: 0.4249, Validation_avg: loss: 5.3453, recall: 0.2208, precision: 0.6860, F1: 0.3341, Best valid_f1: 0.4988, in epoch 16
+epoch: 27, now learning rate: 0.001
+epoch: 27, Training_avg: loss: 5.2411, recall: 0.3618, precision: 0.6179, F1: 0.4500, Validation_avg: loss: 5.1562, recall: 0.2887, precision: 0.6776, F1: 0.4049, Best valid_f1: 0.4988, in epoch 16
+epoch: 28, now learning rate: 0.001
+epoch: 28, Training_avg: loss: 5.2522, recall: 0.3531, precision: 0.6272, F1: 0.4446, Validation_avg: loss: 5.1982, recall: 0.3302, precision: 0.6444, F1: 0.4367, Best valid_f1: 0.4988, in epoch 16
+epoch: 29, now learning rate: 0.001
+epoch: 29, Training_avg: loss: 5.2767, recall: 0.3215, precision: 0.6282, F1: 0.4118, Validation_avg: loss: 5.3017, recall: 0.2208, precision: 0.7249, F1: 0.3385, Best valid_f1: 0.4988, in epoch 16
+epoch: 30, now learning rate: 0.001
+epoch: 30, Training_avg: loss: 5.1856, recall: 0.3760, precision: 0.6285, F1: 0.4646, Validation_avg: loss: 5.1708, recall: 0.2621, precision: 0.6888, F1: 0.3797, Best valid_f1: 0.4988, in epoch 16
+epoch: 31, now learning rate: 0.001
+epoch: 31, Training_avg: loss: 5.2299, recall: 0.3918, precision: 0.6245, F1: 0.4760, Validation_avg: loss: 5.3357, recall: 0.2348, precision: 0.7060, F1: 0.3524, Best valid_f1: 0.4988, in epoch 16
+epoch: 32, now learning rate: 0.001
+epoch: 32, Training_avg: loss: 5.1531, recall: 0.3846, precision: 0.6278, F1: 0.4684, Validation_avg: loss: 5.2123, recall: 0.2551, precision: 0.7011, F1: 0.3741, Best valid_f1: 0.4988, in epoch 16
+epoch: 33, now learning rate: 0.001
+epoch: 33, Training_avg: loss: 5.1761, recall: 0.3889, precision: 0.6230, F1: 0.4718, Validation_avg: loss: 5.1580, recall: 0.2511, precision: 0.7143, F1: 0.3716, Best valid_f1: 0.4988, in epoch 16
+epoch: 34, now learning rate: 0.001
+epoch: 34, Training_avg: loss: 5.2120, recall: 0.3862, precision: 0.6261, F1: 0.4668, Validation_avg: loss: 5.1450, recall: 0.3066, precision: 0.6789, F1: 0.4225, Best valid_f1: 0.4988, in epoch 16
+epoch: 35, now learning rate: 0.001
+epoch: 35, Training_avg: loss: 5.1693, recall: 0.4130, precision: 0.6254, F1: 0.4929, Validation_avg: loss: 5.1260, recall: 0.4117, precision: 0.6468, F1: 0.5031, Best valid_f1: 0.5031, in epoch 35
+epoch: 36, now learning rate: 0.001
+epoch: 36, Training_avg: loss: 5.2232, recall: 0.3829, precision: 0.6228, F1: 0.4655, Validation_avg: loss: 5.1993, recall: 0.2491, precision: 0.7244, F1: 0.3707, Best valid_f1: 0.5031, in epoch 35
+epoch: 37, now learning rate: 0.001
+epoch: 37, Training_avg: loss: 5.1697, recall: 0.3913, precision: 0.6266, F1: 0.4745, Validation_avg: loss: 5.0896, recall: 0.4313, precision: 0.6179, F1: 0.5080, Best valid_f1: 0.5080, in epoch 37
+epoch: 38, now learning rate: 0.001
+epoch: 38, Training_avg: loss: 5.1710, recall: 0.3987, precision: 0.6193, F1: 0.4755, Validation_avg: loss: 5.0735, recall: 0.3735, precision: 0.6598, F1: 0.4770, Best valid_f1: 0.5080, in epoch 37
+epoch: 39, now learning rate: 0.001
+epoch: 39, Training_avg: loss: 5.1770, recall: 0.4069, precision: 0.6194, F1: 0.4875, Validation_avg: loss: 5.1281, recall: 0.3123, precision: 0.6722, F1: 0.4264, Best valid_f1: 0.5080, in epoch 37
+epoch: 40, now learning rate: 0.001
+epoch: 40, Training_avg: loss: 5.1539, recall: 0.4237, precision: 0.6165, F1: 0.4964, Validation_avg: loss: 5.1451, recall: 0.2321, precision: 0.6918, F1: 0.3476, Best valid_f1: 0.5080, in epoch 37
+epoch: 41, now learning rate: 0.001
+epoch: 41, Training_avg: loss: 5.1500, recall: 0.4049, precision: 0.6333, F1: 0.4853, Validation_avg: loss: 5.1015, recall: 0.2670, precision: 0.7131, F1: 0.3886, Best valid_f1: 0.5080, in epoch 37
+epoch: 42, now learning rate: 0.001
+epoch: 42, Training_avg: loss: 5.1413, recall: 0.4017, precision: 0.6217, F1: 0.4839, Validation_avg: loss: 5.2169, recall: 0.3123, precision: 0.6432, F1: 0.4204, Best valid_f1: 0.5080, in epoch 37
+epoch: 43, now learning rate: 0.001
+epoch: 43, Training_avg: loss: 5.1253, recall: 0.4093, precision: 0.6301, F1: 0.4911, Validation_avg: loss: 5.1124, recall: 0.2810, precision: 0.6755, F1: 0.3969, Best valid_f1: 0.5080, in epoch 37
+epoch: 44, now learning rate: 0.001
+epoch: 44, Training_avg: loss: 5.1785, recall: 0.4145, precision: 0.6142, F1: 0.4883, Validation_avg: loss: 5.0620, recall: 0.3578, precision: 0.6679, F1: 0.4660, Best valid_f1: 0.5080, in epoch 37
+epoch: 45, now learning rate: 0.001
+epoch: 45, Training_avg: loss: 5.1381, recall: 0.4056, precision: 0.6176, F1: 0.4849, Validation_avg: loss: 5.0148, recall: 0.3928, precision: 0.6676, F1: 0.4946, Best valid_f1: 0.5080, in epoch 37
+epoch: 46, now learning rate: 0.001
+epoch: 46, Training_avg: loss: 5.1398, recall: 0.4078, precision: 0.6380, F1: 0.4890, Validation_avg: loss: 5.0814, recall: 0.3259, precision: 0.6916, F1: 0.4430, Best valid_f1: 0.5080, in epoch 37
+epoch: 47, now learning rate: 0.001
+epoch: 47, Training_avg: loss: 5.1895, recall: 0.3964, precision: 0.6219, F1: 0.4768, Validation_avg: loss: 5.0709, recall: 0.4170, precision: 0.6471, F1: 0.5072, Best valid_f1: 0.5080, in epoch 37
+epoch: 48, now learning rate: 0.001
+epoch: 48, Training_avg: loss: 5.1748, recall: 0.4112, precision: 0.6186, F1: 0.4840, Validation_avg: loss: 5.0648, recall: 0.3113, precision: 0.6827, F1: 0.4276, Best valid_f1: 0.5080, in epoch 37
+epoch: 49, now learning rate: 0.001
+epoch: 49, Training_avg: loss: 5.0846, recall: 0.4283, precision: 0.6336, F1: 0.5045, Validation_avg: loss: 5.2080, recall: 0.3282, precision: 0.6455, F1: 0.4352, Best valid_f1: 0.5080, in epoch 37
+epoch: 50, now learning rate: 0.001
+epoch: 50, Training_avg: loss: 5.1375, recall: 0.4161, precision: 0.6209, F1: 0.4914, Validation_avg: loss: 5.1071, recall: 0.4287, precision: 0.6464, F1: 0.5155, Best valid_f1: 0.5155, in epoch 50
+epoch: 51, now learning rate: 0.001
+epoch: 51, Training_avg: loss: 5.1180, recall: 0.4064, precision: 0.6249, F1: 0.4859, Validation_avg: loss: 4.9899, recall: 0.4027, precision: 0.6514, F1: 0.4977, Best valid_f1: 0.5155, in epoch 50
+epoch: 52, now learning rate: 0.001
+epoch: 52, Training_avg: loss: 5.1278, recall: 0.4382, precision: 0.6136, F1: 0.5041, Validation_avg: loss: 5.0953, recall: 0.3435, precision: 0.6622, F1: 0.4524, Best valid_f1: 0.5155, in epoch 50
+epoch: 53, now learning rate: 0.001
+epoch: 53, Training_avg: loss: 5.0955, recall: 0.4112, precision: 0.6281, F1: 0.4925, Validation_avg: loss: 5.0267, recall: 0.4416, precision: 0.6400, F1: 0.5226, Best valid_f1: 0.5226, in epoch 53
+epoch: 54, now learning rate: 0.001
+epoch: 54, Training_avg: loss: 5.1108, recall: 0.4276, precision: 0.6261, F1: 0.5024, Validation_avg: loss: 5.0350, recall: 0.2784, precision: 0.6889, F1: 0.3965, Best valid_f1: 0.5226, in epoch 53
+epoch: 55, now learning rate: 0.001
+epoch: 55, Training_avg: loss: 5.0860, recall: 0.4272, precision: 0.6288, F1: 0.5023, Validation_avg: loss: 5.0876, recall: 0.3688, precision: 0.6649, F1: 0.4744, Best valid_f1: 0.5226, in epoch 53
+epoch: 56, now learning rate: 0.001
+epoch: 56, Training_avg: loss: 5.0894, recall: 0.4225, precision: 0.6215, F1: 0.4981, Validation_avg: loss: 4.9865, recall: 0.3412, precision: 0.6548, F1: 0.4486, Best valid_f1: 0.5226, in epoch 53
+epoch: 57, now learning rate: 0.001
+epoch: 57, Training_avg: loss: 5.1097, recall: 0.4301, precision: 0.6205, F1: 0.5028, Validation_avg: loss: 5.0701, recall: 0.4556, precision: 0.6369, F1: 0.5312, Best valid_f1: 0.5312, in epoch 57
+epoch: 58, now learning rate: 0.001
+epoch: 58, Training_avg: loss: 5.0862, recall: 0.4467, precision: 0.6207, F1: 0.5130, Validation_avg: loss: 4.9446, recall: 0.4769, precision: 0.6402, F1: 0.5466, Best valid_f1: 0.5466, in epoch 58
+epoch: 59, now learning rate: 0.001
+epoch: 59, Training_avg: loss: 5.1096, recall: 0.4265, precision: 0.6264, F1: 0.5018, Validation_avg: loss: 5.0308, recall: 0.3914, precision: 0.6616, F1: 0.4919, Best valid_f1: 0.5466, in epoch 58
+epoch: 60, now learning rate: 0.0005
+epoch: 60, Training_avg: loss: 5.1239, recall: 0.4108, precision: 0.6323, F1: 0.4901, Validation_avg: loss: 5.0437, recall: 0.3585, precision: 0.6742, F1: 0.4681, Best valid_f1: 0.5466, in epoch 58
+epoch: 61, now learning rate: 0.0005
+epoch: 61, Training_avg: loss: 5.0384, recall: 0.4311, precision: 0.6310, F1: 0.5077, Validation_avg: loss: 4.9787, recall: 0.4410, precision: 0.6418, F1: 0.5228, Best valid_f1: 0.5466, in epoch 58
+epoch: 62, now learning rate: 0.0005
+epoch: 62, Training_avg: loss: 4.9966, recall: 0.4589, precision: 0.6310, F1: 0.5278, Validation_avg: loss: 4.8969, recall: 0.4426, precision: 0.6596, F1: 0.5298, Best valid_f1: 0.5466, in epoch 58
+epoch: 63, now learning rate: 0.0005
+epoch: 63, Training_avg: loss: 5.0350, recall: 0.4401, precision: 0.6214, F1: 0.5116, Validation_avg: loss: 4.9405, recall: 0.4207, precision: 0.6613, F1: 0.5142, Best valid_f1: 0.5466, in epoch 58
+epoch: 64, now learning rate: 0.0005
+epoch: 64, Training_avg: loss: 5.0088, recall: 0.4651, precision: 0.6219, F1: 0.5293, Validation_avg: loss: 5.0417, recall: 0.4170, precision: 0.6454, F1: 0.5067, Best valid_f1: 0.5466, in epoch 58
+epoch: 65, now learning rate: 0.0005
+epoch: 65, Training_avg: loss: 4.9918, recall: 0.4620, precision: 0.6261, F1: 0.5286, Validation_avg: loss: 4.9164, recall: 0.4167, precision: 0.6733, F1: 0.5148, Best valid_f1: 0.5466, in epoch 58
+epoch: 66, now learning rate: 0.0005
+epoch: 66, Training_avg: loss: 5.0063, recall: 0.4596, precision: 0.6321, F1: 0.5289, Validation_avg: loss: 5.0005, recall: 0.4849, precision: 0.6358, F1: 0.5502, Best valid_f1: 0.5502, in epoch 66
+epoch: 67, now learning rate: 0.0005
+epoch: 67, Training_avg: loss: 4.9727, recall: 0.4779, precision: 0.6186, F1: 0.5366, Validation_avg: loss: 5.0124, recall: 0.3864, precision: 0.6648, F1: 0.4887, Best valid_f1: 0.5502, in epoch 66
+epoch: 68, now learning rate: 0.0005
+epoch: 68, Training_avg: loss: 4.9919, recall: 0.4509, precision: 0.6311, F1: 0.5231, Validation_avg: loss: 4.9763, recall: 0.4051, precision: 0.6605, F1: 0.5022, Best valid_f1: 0.5502, in epoch 66
+epoch: 69, now learning rate: 0.0005
+epoch: 69, Training_avg: loss: 4.9976, recall: 0.4600, precision: 0.6211, F1: 0.5229, Validation_avg: loss: 4.8884, recall: 0.4613, precision: 0.6564, F1: 0.5418, Best valid_f1: 0.5502, in epoch 66
+epoch: 70, now learning rate: 0.0005
+epoch: 70, Training_avg: loss: 4.9926, recall: 0.4556, precision: 0.6228, F1: 0.5237, Validation_avg: loss: 4.9148, recall: 0.4090, precision: 0.6833, F1: 0.5118, Best valid_f1: 0.5502, in epoch 66
+epoch: 71, now learning rate: 0.0005
+epoch: 71, Training_avg: loss: 5.0138, recall: 0.4685, precision: 0.6295, F1: 0.5329, Validation_avg: loss: 4.9403, recall: 0.4054, precision: 0.6522, F1: 0.5000, Best valid_f1: 0.5502, in epoch 66
+epoch: 72, now learning rate: 0.0005
+epoch: 72, Training_avg: loss: 4.9924, recall: 0.4754, precision: 0.6240, F1: 0.5367, Validation_avg: loss: 4.9342, recall: 0.3981, precision: 0.6879, F1: 0.5043, Best valid_f1: 0.5502, in epoch 66
+epoch: 73, now learning rate: 0.0005
+epoch: 73, Training_avg: loss: 4.9784, recall: 0.4514, precision: 0.6348, F1: 0.5241, Validation_avg: loss: 4.8652, recall: 0.3997, precision: 0.6904, F1: 0.5063, Best valid_f1: 0.5502, in epoch 66
+epoch: 74, now learning rate: 0.0005
+epoch: 74, Training_avg: loss: 4.9919, recall: 0.4600, precision: 0.6278, F1: 0.5276, Validation_avg: loss: 4.9416, recall: 0.4882, precision: 0.6347, F1: 0.5519, Best valid_f1: 0.5519, in epoch 74
+epoch: 75, now learning rate: 0.0005
+epoch: 75, Training_avg: loss: 4.9430, recall: 0.4570, precision: 0.6324, F1: 0.5281, Validation_avg: loss: 4.9913, recall: 0.4509, precision: 0.6381, F1: 0.5284, Best valid_f1: 0.5519, in epoch 74
+epoch: 76, now learning rate: 0.0005
+epoch: 76, Training_avg: loss: 4.9450, recall: 0.4833, precision: 0.6229, F1: 0.5413, Validation_avg: loss: 4.9938, recall: 0.4390, precision: 0.6509, F1: 0.5243, Best valid_f1: 0.5519, in epoch 74
+epoch: 77, now learning rate: 0.0005
+epoch: 77, Training_avg: loss: 4.9605, recall: 0.4679, precision: 0.6381, F1: 0.5355, Validation_avg: loss: 4.8968, recall: 0.4799, precision: 0.6448, F1: 0.5502, Best valid_f1: 0.5519, in epoch 74
+epoch: 78, now learning rate: 0.0005
+epoch: 78, Training_avg: loss: 4.9868, recall: 0.4729, precision: 0.6273, F1: 0.5365, Validation_avg: loss: 4.9594, recall: 0.3904, precision: 0.6529, F1: 0.4887, Best valid_f1: 0.5519, in epoch 74
+epoch: 79, now learning rate: 0.0005
+epoch: 79, Training_avg: loss: 4.9183, recall: 0.4747, precision: 0.6326, F1: 0.5401, Validation_avg: loss: 4.9591, recall: 0.4546, precision: 0.6473, F1: 0.5341, Best valid_f1: 0.5519, in epoch 74
+epoch: 80, now learning rate: 0.0005
+epoch: 80, Training_avg: loss: 4.9719, recall: 0.4748, precision: 0.6339, F1: 0.5410, Validation_avg: loss: 4.9054, recall: 0.5457, precision: 0.6268, F1: 0.5835, Best valid_f1: 0.5835, in epoch 80
+epoch: 81, now learning rate: 0.0005
+epoch: 81, Training_avg: loss: 5.0012, recall: 0.4498, precision: 0.6295, F1: 0.5209, Validation_avg: loss: 4.8523, recall: 0.4766, precision: 0.6502, F1: 0.5500, Best valid_f1: 0.5835, in epoch 80
+epoch: 82, now learning rate: 0.0005
+epoch: 82, Training_avg: loss: 4.9433, recall: 0.4729, precision: 0.6343, F1: 0.5382, Validation_avg: loss: 4.8956, recall: 0.4872, precision: 0.6395, F1: 0.5530, Best valid_f1: 0.5835, in epoch 80
+epoch: 83, now learning rate: 0.0005
+epoch: 83, Training_avg: loss: 4.9412, recall: 0.4828, precision: 0.6368, F1: 0.5449, Validation_avg: loss: 4.8375, recall: 0.4177, precision: 0.6935, F1: 0.5214, Best valid_f1: 0.5835, in epoch 80
+epoch: 84, now learning rate: 0.0005
+epoch: 84, Training_avg: loss: 4.9836, recall: 0.4782, precision: 0.6268, F1: 0.5397, Validation_avg: loss: 4.9409, recall: 0.4164, precision: 0.6617, F1: 0.5111, Best valid_f1: 0.5835, in epoch 80
+epoch: 85, now learning rate: 0.0005
+epoch: 85, Training_avg: loss: 4.9744, recall: 0.4553, precision: 0.6370, F1: 0.5282, Validation_avg: loss: 4.8575, recall: 0.4972, precision: 0.6354, F1: 0.5578, Best valid_f1: 0.5835, in epoch 80
+epoch: 86, now learning rate: 0.0005
+epoch: 86, Training_avg: loss: 4.9543, recall: 0.4644, precision: 0.6316, F1: 0.5336, Validation_avg: loss: 4.9396, recall: 0.5068, precision: 0.6326, F1: 0.5628, Best valid_f1: 0.5835, in epoch 80
+epoch: 87, now learning rate: 0.0005
+epoch: 87, Training_avg: loss: 4.9691, recall: 0.4705, precision: 0.6290, F1: 0.5360, Validation_avg: loss: 4.8397, recall: 0.4819, precision: 0.6548, F1: 0.5552, Best valid_f1: 0.5835, in epoch 80
+epoch: 88, now learning rate: 0.0005
+epoch: 88, Training_avg: loss: 4.9344, recall: 0.4828, precision: 0.6264, F1: 0.5418, Validation_avg: loss: 4.9110, recall: 0.4523, precision: 0.6780, F1: 0.5426, Best valid_f1: 0.5835, in epoch 80
+epoch: 89, now learning rate: 0.0005
+epoch: 89, Training_avg: loss: 4.9555, recall: 0.4617, precision: 0.6362, F1: 0.5324, Validation_avg: loss: 4.8170, recall: 0.4822, precision: 0.6615, F1: 0.5578, Best valid_f1: 0.5835, in epoch 80
+epoch: 90, now learning rate: 0.00025
+epoch: 90, Training_avg: loss: 4.9401, recall: 0.4856, precision: 0.6288, F1: 0.5454, Validation_avg: loss: 4.8736, recall: 0.5091, precision: 0.6446, F1: 0.5689, Best valid_f1: 0.5835, in epoch 80
+epoch: 91, now learning rate: 0.00025
+epoch: 91, Training_avg: loss: 4.9359, recall: 0.4695, precision: 0.6345, F1: 0.5371, Validation_avg: loss: 4.8680, recall: 0.4736, precision: 0.6608, F1: 0.5517, Best valid_f1: 0.5835, in epoch 80
+epoch: 92, now learning rate: 0.00025
+epoch: 92, Training_avg: loss: 4.9232, recall: 0.4947, precision: 0.6278, F1: 0.5510, Validation_avg: loss: 4.8579, recall: 0.4885, precision: 0.6723, F1: 0.5659, Best valid_f1: 0.5835, in epoch 80
+epoch: 93, now learning rate: 0.00025
+epoch: 93, Training_avg: loss: 4.9083, recall: 0.4794, precision: 0.6319, F1: 0.5438, Validation_avg: loss: 4.8183, recall: 0.4682, precision: 0.6718, F1: 0.5518, Best valid_f1: 0.5835, in epoch 80
+epoch: 94, now learning rate: 0.00025
+epoch: 94, Training_avg: loss: 4.9384, recall: 0.4802, precision: 0.6255, F1: 0.5412, Validation_avg: loss: 4.8493, recall: 0.4676, precision: 0.6695, F1: 0.5506, Best valid_f1: 0.5835, in epoch 80
+epoch: 95, now learning rate: 0.00025
+epoch: 95, Training_avg: loss: 4.8918, recall: 0.4744, precision: 0.6435, F1: 0.5448, Validation_avg: loss: 4.8355, recall: 0.5005, precision: 0.6515, F1: 0.5661, Best valid_f1: 0.5835, in epoch 80
+epoch: 96, now learning rate: 0.00025
+epoch: 96, Training_avg: loss: 4.9232, recall: 0.4820, precision: 0.6307, F1: 0.5439, Validation_avg: loss: 4.8327, recall: 0.5171, precision: 0.6520, F1: 0.5768, Best valid_f1: 0.5835, in epoch 80
+epoch: 97, now learning rate: 0.00025
+epoch: 97, Training_avg: loss: 4.8927, recall: 0.4913, precision: 0.6337, F1: 0.5506, Validation_avg: loss: 4.8030, recall: 0.5098, precision: 0.6537, F1: 0.5729, Best valid_f1: 0.5835, in epoch 80
+epoch: 98, now learning rate: 0.00025
+epoch: 98, Training_avg: loss: 4.8676, recall: 0.4967, precision: 0.6373, F1: 0.5561, Validation_avg: loss: 4.8665, recall: 0.4805, precision: 0.6656, F1: 0.5581, Best valid_f1: 0.5835, in epoch 80
+epoch: 99, now learning rate: 0.00025
+epoch: 99, Training_avg: loss: 4.8668, recall: 0.4847, precision: 0.6417, F1: 0.5506, Validation_avg: loss: 4.7674, recall: 0.5145, precision: 0.6594, F1: 0.5780, Best valid_f1: 0.5835, in epoch 80
+
+
+TEST RESULTS:
+Loaded embeddings shape: torch.Size([1553, 480])
+recall: 0.532194480946106, precision: 0.6291262135922085, F1: 0.5766150560101249, AUPRC: [0.66274825 0.73199406 0.3395834  0.6483544  0.35807375 0.64290045
+ 0.38619106]

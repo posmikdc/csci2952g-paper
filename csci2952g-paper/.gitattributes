@@ -1,0 +1,4 @@
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+code_attention/ppi+attention-fin/protein_info/data_for_HIGHPPI/9606.protein.actions.v11.0.txt filter=lfs diff=lfs merge=lfs -text
+code_attention/ppi+attention-fin/protein_info/edge_list_12.npy filter=lfs diff=lfs merge=lfs -text
